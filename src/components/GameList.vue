@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <h1>Lista de Juegos</h1>
-    <div class="container">
-      <table style="width: 100%">
+  <div class="container">
+    <h1 class="subtitle">Lista de Juegos</h1>
+    <div class="container_table">
+      <table>
         <tr>
           <th>Codigo</th>
           <th>Nombre</th>
@@ -44,8 +44,18 @@ export default {
 
 <style scoped>
 
+.subtitle{
+    font-size: 20px;
+}
+
 table, th, td {
-  border:1px solid black;
+  border:1px solid black
+}
+
+table{
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 </style>
