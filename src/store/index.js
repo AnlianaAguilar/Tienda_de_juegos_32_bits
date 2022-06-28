@@ -18,5 +18,3 @@ export default new Vuex.Store({
   }
 })
 
-// el v for se crea en el tr style="{color:juego.color}
-//<tr v-for="juego in juegos" :style="{color:juego.color}">
